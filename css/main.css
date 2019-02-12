@@ -1,0 +1,53 @@
+[data-storeIcon*="storeIcon"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 181px;
+  overflow: hidden; }
+  [data-storeIcon*="storeIcon"] > .icon {
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    vertical-align: middle; }
+  [data-storeIcon*="storeIcon"] > div {
+    display: inline-block;
+    vertical-align: middle; }
+    [data-storeIcon*="storeIcon"] > div > span {
+      display: block;
+      font-family: Tahoma;
+      font-size: 100%; }
+    [data-storeIcon*="storeIcon"] > div > span + span {
+      font-size: 150%;
+      letter-spacing: 1px; }
+  [data-storeIcon*="storeIcon"][data-storeIcon*="vertical"] {
+    text-align: center; }
+    [data-storeIcon*="storeIcon"][data-storeIcon*="vertical"] .icon {
+      margin-right: 0;
+      margin-bottom: 10px; }
+  [data-storeIcon*="storeIcon"][data-storeIcon*="googlePlay"] {
+    width: 195px; }
+    [data-storeIcon*="storeIcon"][data-storeIcon*="googlePlay"] > .icon {
+      border: 15px solid;
+      position: relative;
+      margin-top: 5px;
+      height: 0;
+      width: 0;
+      border-color: #00f076 #ffc700 #f83547 #02d1ff; }
+      [data-storeIcon*="storeIcon"][data-storeIcon*="googlePlay"] > .icon:before {
+        content: '';
+        display: block;
+        position: absolute;
+        border: 15px solid #000000;
+        border-left-width: 30px;
+        border-left-color: transparent;
+        border-right: 0;
+        left: -15px;
+        top: -15px; }
+  [data-storeIcon*="storeIcon"][data-storeIcon*="appStore vertical"] {
+    max-width: 83px; }
+  [data-storeIcon*="storeIcon"][data-storeIcon*="googlePlay vertical"] {
+    max-width: 100px; }
